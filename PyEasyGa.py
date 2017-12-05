@@ -47,7 +47,6 @@ genetic_algorithm.fitness_function = fitness_function
 genetic_algorithm.run()
 
 best = genetic_algorithm.best_individual()
-print(calculate(best[1]))
-print(best)
-
+best_results = calculate(best[1])
+# print(best_results)
 
