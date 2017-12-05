@@ -2,6 +2,7 @@ from pyeasyga import pyeasyga
 
 # Genetic Algorithm - fist task
 # Using pyeasyga lib
+# Based on https://github.com/remiomosowon/pyeasyga/tree/develop/examples
 
 sourceFile = open("24.txt", 'r')
 t = []
