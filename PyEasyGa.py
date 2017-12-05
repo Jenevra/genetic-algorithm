@@ -29,7 +29,7 @@ def fitness_function(individual, data):
             sum_cargo += int(item[0])
             sum_space += float(item[1])
             price += int(item[2])
-    if sum_cargo > cargoCapacity or sum_space > capacityValue:
+    if sum_cargo >= cargoCapacity or sum_space >= capacityValue:
         price = 0
     return price
 
