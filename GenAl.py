@@ -3,6 +3,14 @@ import PyEasyGa
 import requests
 import json
 
+# Genetic Algorithm - second task
+# 1. Greedy selection for initial population
+# 2. Roulette selection for crossing over
+# 3. Multipoint crossing over with 3 points
+# 4. Mutation: add 1 random items to 10% of individuals
+# 5. Formation of a new population: replace 30% of worst by best
+# 6. Evaluate the results
+
 path = '24.txt'
 individuals = 200
 count_pairs = int(individuals / 2)
@@ -270,7 +278,7 @@ while gen_count != generations:
     copy_dict = new_copy_dict.copy()
     gen_count += 1
 
-print("")
+print("results of using pyeasyga")
 print("weigth", PyEasyGa.best_results[0])
 print("value", PyEasyGa.best[0])
 print("volume", PyEasyGa.best_results[1])

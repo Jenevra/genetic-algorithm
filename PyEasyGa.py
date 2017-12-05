@@ -1,5 +1,7 @@
 from pyeasyga import pyeasyga
 
+# Genetic Algorithm - fist task
+# Using pyeasyga lib
 
 sourceFile = open("24.txt", 'r')
 t = []
