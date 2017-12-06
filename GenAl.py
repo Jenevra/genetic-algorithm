@@ -254,8 +254,8 @@ while gen_count != generations:
         break
 
     # part that includes all new data for the next generation
-    # we need to set set to zero total price
-    # also because keys of individual in initial population were from 0 to 199
+    # we need to set to zero total price
+    # also because keys of individuals in initial population were from 0 to 199
     # and in child population from 200 to 399
     # there is a need to change indexes in result population that will be parental (or initial)
     # in next generation
